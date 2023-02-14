@@ -1,0 +1,17 @@
+.SuperHeroCards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+#result{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 10px;
+}
+.SuperHeroCards img{
+    width: 150px;
+    height: 150px;
+}
